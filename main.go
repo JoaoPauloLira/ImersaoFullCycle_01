@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
+	"log"
+
 	kafka2 "github.com/codeedu/imersaofsfc2-simulator/application/kafka"
 	route2 "github.com/codeedu/imersaofsfc2-simulator/application/route"
 	"github.com/codeedu/imersaofsfc2-simulator/infra/kafka"
 	ckafka "github.com/confluentinc/confluent-kafka-go/kafka"
 	"github.com/joho/godotenv"
-	"log"
 )
 
 func main() {
